@@ -1,0 +1,92 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8bd1f8f0;
+    color: rgb(0, 0, 0);
+    padding: 0px 0px 0px 10px;
+    text-align: center;
+}
+header h1{
+    padding:  0px;
+}
+header nav ul {
+    list-style: none;
+    padding: 0 15px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#hero {
+    display: flex;
+    background-color: #e2e2e2;
+    \padding: 50px 20px;
+    justify-content: space-around; 
+    align-items: center;
+    
+}
+#hero-2{
+    padding: 50px 0px 50px;
+    text-align: center;
+}
+.hero-item {
+    flex: 1;
+    
+}
+
+.hero-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#value-proposition, #waitlist {
+    padding: 20px;
+    text-align: center;
+}
+
+#waitlist-form {
+    margin-top: 20px;
+}
+
+#waitlist-form input, #waitlist-form button {
+    padding: 10px;
+    margin: 5px 0;
+    width: 80%;
+    max-width: 300px;
+}
+#waitlist-form input{
+    border-radius: 10px;
+    border: none;
+}
+#waitlist-form button{
+    background-color:#8bd1f8f0;
+    border: none;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #8bd1f8f0;
+    color: rgba(63, 38, 38, 0.705);
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
